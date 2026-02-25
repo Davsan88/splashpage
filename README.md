@@ -1,0 +1,2 @@
+# splashpage
+responsive landing page
