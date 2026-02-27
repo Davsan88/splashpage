@@ -89,21 +89,45 @@ p {
     Form
    ================= */
 
-input {
+input,
+.btn {
     font-family: inherit;
     width: 100%;
+    border-radius: 5px;
+}
+
+input {
     margin-bottom: 0.75em;
     padding: 0.5em;
     border: 2px solid #d1d5db;
-    border-radius: 5px;
 }
 
 input:focus {
     outline: none;
-    background-color: #e6e8ec;border-color: #8a71ec;
+    background-color: #e6e8ec;
+    border-color: #8a71ec;
 }
 
+.btn {
+    padding: 1em 0;
+    margin-top: 1em;
+    border: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
 
+.btn-primary {
+    background-color: #9480e4;
+    color: #fff;
+    text-shadow: 0 2px #816fca;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #b7a7f6;
+}
 
 /* =================
     Media queries 
@@ -132,11 +156,11 @@ input:focus {
     h1 {
         font-size: 5vw;
     }
-    
+
     h2 {
         font-size: 2.625rem;
     }
-    
+
     .beta-text {
         font-size: 1.25rem;
     }
