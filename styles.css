@@ -85,10 +85,18 @@ p {
    ================= */
 
 input {
-       width: 100%;
+    font-family: inherit;
+    width: 100%;
     margin-bottom: 0.75em;
     padding: 0.5em;
-   }
+    border: 2px solid #d1d5db;
+    border-radius: 5px;
+}
+
+input:focus {
+    outline: none;
+    background-color: #e6e8ec;border-color: #8a71ec;
+}
 
 
 
